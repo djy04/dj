@@ -51,12 +51,12 @@ public class ProductController {
 		ps.deletedeta(accountNumber);
 	}
 	
-	@GetMapping("/acc/{accountNumber}")
-	public Optional<AccountHolder> getdata(@PathVariable("accountNumber")int accno)
-	{
-		
-		return ps.getsingledata(accno);
-	}
+//	@GetMapping("/acc/{accountNumber}")
+//	public Optional<AccountHolder> getdata(@PathVariable("accountNumber")int accno)
+//	{
+//		
+//		return ps.getsingledata(accno);
+//	}
 	
 	
 	
